@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Ajuda"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="564" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="197" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="487" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Mercado Seu Quinkas"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="jList1">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="22">
+                <StringItem index="0" value="Verificar se o sistema est&#xe1; atualizado com esses Passos "/>
+                <StringItem index="1" value="Sistema &gt; Configura&#xe7;&#xf5;es &gt; atualiza&#xe7;&#xe3;o&gt; Verificar Atualiza&#xe7;&#xf5;es"/>
+                <StringItem index="2" value="Se o sistema estiver atualizado aparecer&#xe1; a mensagem &quot; Sistema est&#xe1; atualizado&quot;"/>
+                <StringItem index="3" value="Parab&#xe9;ns seu sistema est&#xe1; atualizado "/>
+                <StringItem index="4" value="Se o sistema n&#xe3;o estiver atualizado aparecer&#xe1; a mensagem &quot; Atualize seu sistema &quot;"/>
+                <StringItem index="5" value="1&#xb0; Passo"/>
+                <StringItem index="6" value="Clique em &quot;Atualizar sistema&quot; "/>
+                <StringItem index="7" value="Come&#xe7;ar&#xe1; a Baixar a &quot;atualiza&#xe7;&#xe3;o&quot; mais recente do sistema"/>
+                <StringItem index="8" value="Terminando de baixar a &quot;atualiza&#xe7;&#xe3;o&quot; o sistema vai reiniciar automaticamente "/>
+                <StringItem index="9" value="para instalar a &quot;atualiza&#xe7;&#xe3;o&quot; e para terminar &quot;Atualiza&#xe7;&#xf5;es Pendentes&quot;"/>
+                <StringItem index="10" value="Se o sistema terminou as &quot;Atualiza&#xe7;&#xf5;es Pendentes&quot; e atualizou todo o sistema "/>
+                <StringItem index="11" value="n&#xe3;o faz nada pois j&#xe1; est&#xe1; Atualizado."/>
+                <StringItem index="12" value=" "/>
+                <StringItem index="13" value="Caso de duvidas acessar esse site "/>
+                <StringItem index="14" value="https://support.microsoft.com/pt-br/hub/4338813/windows-help?os=windows-10"/>
+                <StringItem index="15" value=" "/>
+                <StringItem index="16" value=" "/>
+                <StringItem index="17" value=" "/>
+                <StringItem index="18" value=" "/>
+                <StringItem index="19" value=" "/>
+                <StringItem index="20" value=" "/>
+                <StringItem index="21" value=" "/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
