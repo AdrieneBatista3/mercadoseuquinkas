@@ -21,5 +21,19 @@ public class PesquisarCidadeControl {
     public PesquisarCidadeControl(PesquisarCidade pesquisarCidades) {
         this.pesquisarCidades = pesquisarCidades;
     }
+    public void preencherTabelaCidade(List<Cidade> listCidade){
+        listCidade = cidadeDao.listar();
+        String [] colunas = {"Nome, UF"};
+        DefaultTableModel model = new DefaultTableModel(colunas,listCidade.size());
+        
+        for(int i = 0; i< listCidade.size();i++){
+            Cidade cidade = listCidade.get(i);
+            cidade = new Cidade(cidade.getId(),cidade.getNome(),cidade.getUf());
+            model.addRow(colunas);
+            
+            
+        }
+        
+    }
 
 }
