@@ -1,2 +1,2 @@
 # mercadoseuquinkas
-#  Projeto de um mercado 
+Projeto de um mercado 
